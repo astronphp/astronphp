@@ -1,5 +1,4 @@
 *.log
-*.lock
 vendor
 node_modules
 !/storage
