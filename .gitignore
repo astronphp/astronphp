@@ -2,5 +2,6 @@
 vendor
 node_modules
 !/storage
-/storage/*
+/storage/cache/
+/storage/apps/sessions/
 !/storage/apps/templates
