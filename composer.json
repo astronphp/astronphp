@@ -15,9 +15,9 @@
     },
     "require": {
         "php": ">=7",
-        "rocket-startup/framework": "^0.0.1",
-        "rocket-startup/frontview": "^0.0.1",
-        "rocket-startup/orm": "^0.0.1"
+        "rocket-startup/framework": "0.0.*",
+        "rocket-startup/frontview": "0.0.*",
+        "rocket-startup/orm": "0.0.*"
     },
     "autoload": {
         "psr-4": {
