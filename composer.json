@@ -1,7 +1,7 @@
 {
     "name": "rocket-startup/rocket-startup",
     "type": "library",
-    "description": "rocket-startup - Modular Framework PHP",
+    "description": "RocketStartup - Modular Framework for PHP 7",
     "keywords": ["framework php", "rocket-startup" , "php"],
     "license": "MIT",
     "minimum-stability": "dev",
