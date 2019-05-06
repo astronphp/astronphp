@@ -1,0 +1,12 @@
+{
+    "template_name"         : "main_default",
+    "path_public"           : "../../public/main_default/",
+    "path_storage"          : "../../storage/apps/templates/main_default/",
+
+    "replacer": {
+        "__version__"       : {"front": "0.0.1",            "back": "{{version}}"},
+        "__assets__"        : {"front": "/assets",          "back": "./main_default/assets"},
+        "__baseUrl__"       : {"front": "./",               "back": "{{base_url}}"},
+        "__link-about__"    : {"front": "./about.html",     "back": "./about/"}
+    }
+}

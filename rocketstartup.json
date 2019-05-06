@@ -1,0 +1,54 @@
+{
+	"Version": "0.0.1",
+	"Name": "RocketStartup Modular Framework PHP",
+	"Applications": {
+		"main": {
+			"development": {
+				"addressUri": "192.168.33.101/RocketStartup/rocket-startup/",
+				"forceHttps": false,
+				"forceWww": false,
+				"database": {
+					"host": "localhost",
+					"username": "root",
+					"password": "***",
+					"database": "user"
+				}
+			}
+		}
+	},
+	"ErrorsDefine": {
+		"DisplayErrors": true,
+		"LogErrors": true,
+		"ErrorReporting": "E_ALL & ~E_USER_DEPRECATED",
+		"ErrorLogFile": "/storage/log/error/php.log",
+		"ErrorSqlFile": "/storage/log/error/sql.log"
+	},
+	"Sessions": {
+		"sessionCacheLimiter": "private",
+		"sessionSavePath": "/storage/apps/sessions/",
+		"sessionCacheExpire": 10080,
+		"cacheNavegation": "2019-01-01 00:00:00"
+	},
+	"Region": {
+		"locale": "pt_BR",
+		"date_timezone": "America/Sao_Paulo"
+	},
+	"FileSystem": {
+		"upload_max_filesize": "100MB",
+		"post_max_size": "100MB"
+	},
+	"MailSender": {
+		"account_smtp_server": "smtp.server.net",
+		"account_smtp_port": 587,
+		"account_mail": "email@server.net",
+		"account_password": "myp4ssw0rd",
+		"account_name": "My Name",
+		"mail_from": "email@forreceive.com",
+		"name_from": "Name For Receive"
+	},
+	"Request": {
+		"timeSeconds": 2,
+		"maxRequestIp": 30,
+		"timeSecondsBanned": 10
+	}
+}

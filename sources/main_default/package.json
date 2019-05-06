@@ -1,0 +1,36 @@
+{
+    "name": "RocketStartup",
+    "description": "structure front end on framework",
+    "author": "cleberson bieleski",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "build": "yarn install && gulp watch"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.7.2",
+        "bootstrap": "4.3.1",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.14.7"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "del": "^3.0.0",
+        "gulp": "4.0.0",
+        "fs": "^0.0.1-security",
+        "merge-stream": "^1.0.1",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-file-include": "^2.0.1",
+        "gulp-hash-src": "^0.1.6",
+        "gulp-header": "2.0.7",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-newer": "^1.4.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-replace-task": "^0.11.0",
+        "gulp-sass": "4.0.2",
+        "gulp-string-replace": "^1.1.2",
+        "gulp-uglify": "3.0.1"
+    }
+}
