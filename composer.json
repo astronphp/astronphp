@@ -4,7 +4,7 @@
     "description": "RocketStartup - Modular Framework for PHP 7",
     "keywords": ["framework php", "rocket-startup" , "php"],
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "alpha",
     "prefer-stable": true,
     "support": {
         "issues": "https://github.com/rocket-startup/rocket-startup/issues",

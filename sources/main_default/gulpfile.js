@@ -67,6 +67,11 @@ function clean() {
   return del(path_storage, {force:true});
 }
 
+// Clean vendor
+function cleanTrash() {
+  return del('../../storage/apps/templates/*.tpl', {force:true});
+}
+
 // Bring third party dependencies from node_modules into vendor directory
 function modules() {
   // Bootstrap JS
@@ -162,6 +167,7 @@ function tpl(){
     }))
     .pipe(htmlmin())
     .pipe(replace(template_replacer('back')))
+    .pipe(gulp.dest('../../storage/apps/templates/'))
     .pipe(hash_src({build_dir: path_storage, src_path: path_storage}))
     .pipe(gulp.dest(path_storage+'tpl/'))
     .pipe(browsersync.stream());
@@ -201,6 +207,7 @@ function watchFiles() {
     html();
     tpl();
     movePublic();
+    cleanTrash();
     browsersync.reload();
     done();
   });
@@ -209,7 +216,7 @@ function watchFiles() {
 
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
-const build = gulp.series(vendor, moveImage, css, js, html, tpl , movePublic);
+const build = gulp.series(vendor, moveImage, css, js, html, tpl , movePublic, cleanTrash);
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
 
 // Export tasks
@@ -220,6 +227,7 @@ exports.tpl = tpl;
 exports.moveImage = moveImage;
 exports.movePublic = movePublic;
 exports.clean = clean;
+exports.cleanTrash = cleanTrash;
 exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
