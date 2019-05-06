@@ -1,7 +1,5 @@
 *.log
-vendor
+/vendor
 node_modules
-!/storage
-/storage/cache/
-/storage/apps/sessions/
+storage
 !/storage/apps/templates
