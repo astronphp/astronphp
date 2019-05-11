@@ -1,13 +1,13 @@
 {
-    "name": "astronphp/rocket",
+    "name": "astronphp/astronphp",
     "type": "library",
-    "description": "RocketStartup - Modular Framework for PHP",
+    "description": "Astronphp - Modular Framework for PHP",
     "keywords": ["framework php", "astronphp" , "php"],
     "license": "MIT",
-    "minimum-stability": "alpha",
+    "minimum-stability": "dev",
     "support": {
-        "issues": "https://github.com/astronphp/rocket/issues",
-        "source": "https://github.com/astronphp/rocket/"
+        "issues": "https://github.com/astronphp/astronphp/issues",
+        "source": "https://github.com/astronphp/astronphp/"
     },
     "config": {
         "sort-packages": true
