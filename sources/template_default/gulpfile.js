@@ -32,7 +32,6 @@ const path_public   = tpl_config.path_public+tpl_config.template_name;
 const banner = ['/*!\n',
   ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %>\n',
   ' * Copyright 2019-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
-  ' * Licensed under <%= pkg.license %> (https://github.com/rocket-startup/rocket-startup/blob/master/LICENSE)\n',
   ' */\n',
   '\n'
 ].join('');

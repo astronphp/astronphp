@@ -4,8 +4,7 @@
     "path_storage"          : "../../storage/apps/templates/",
 
     "replacer": {
-        "__version__"       : {"front": "",                 "back": "{{version}}"},
         "__baseUrl__"       : {"front": "./",               "back": "{{base_url}}"},
-        "__link-about__"    : {"front": "./about.html",     "back": "./about/"}
+        "message"           : {"front": "Hello World!",          "back": "{{message}}"}
     }
 }

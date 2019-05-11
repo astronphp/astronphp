@@ -1,17 +1,11 @@
 {
-    "name": "astronphp",
-    "description": "structure front-end on framework",
+    "name": "astronphp-default",
+    "description": "Hello world page",
     "author": "bieleski@live.com",
     "license": "MIT",
     "private": true,
     "scripts": {
         "build": "yarn install && gulp watch"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "5.7.2",
-        "bootstrap": "4.3.1",
-        "jquery": "^3.4.1",
-        "popper.js": "^1.14.7"
     },
     "devDependencies": {
         "md5": "^2.2.1",
