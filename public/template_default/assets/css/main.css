@@ -10620,12 +10620,12 @@ body#about .top {
 }
 
 .box-gallery .btn-info {
-  background: #EDECF4;
-  color: #6866A4 !important;
+  background: #edecf4;
+  color: #384045 !important;
   font-weight: 700;
   border: none;
   font-size: 15px;
-  border-bottom: 3px solid #6866A4;
+  border-bottom: 3px solid #787878;
 }
 
 .box-gallery h1, .box-gallery p {

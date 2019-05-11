@@ -7,7 +7,7 @@
 <title>Astronphp - Modular php Framework</title>
 
 <link href="./template_default/assets/vendor/fontawesome-free/css/all.min.css?cbh=7b1d7f457d056ace7b230b587b9f3753" rel="stylesheet" type="text/css">
-<link href="./template_default/assets/css/main.min.css?cbh=e1d218c7e03da38c967bd54b47275d83" rel="stylesheet" type="text/css">
+<link href="./template_default/assets/css/main.min.css?cbh=05ee2cf9d12b0d680a3a5dca622490e5" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" sizes="48x48" href="./template_default/assets/media/favicon.png?cbh=42ea01facc7e4957c7f31ae724379953">
   </head>
   <body id="about">

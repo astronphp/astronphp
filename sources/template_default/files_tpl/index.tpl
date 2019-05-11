@@ -7,7 +7,7 @@
 <title>Astronphp - Modular php Framework</title>
 
 <link href="./template_default/assets/vendor/fontawesome-free/css/all.min.css?cbh=7b1d7f457d056ace7b230b587b9f3753" rel="stylesheet" type="text/css">
-<link href="./template_default/assets/css/main.min.css?cbh=e1d218c7e03da38c967bd54b47275d83" rel="stylesheet" type="text/css">
+<link href="./template_default/assets/css/main.min.css?cbh=05ee2cf9d12b0d680a3a5dca622490e5" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" sizes="48x48" href="./template_default/assets/media/favicon.png?cbh=42ea01facc7e4957c7f31ae724379953">
   </head>
   <body id="home">
@@ -34,27 +34,28 @@
 
     <div class="row col-md-8 col-sm-12 mx-auto text-center mt-5 pt-3 content-page">
       <p class="mx-auto">
-        <a href="https://packagist.org/packages/astronphp/rocket"><img src="https://poser.pugx.org/astronphp/rocket/d/total.svg?format=flat" alt="Total Downloads"></a>
-        <a href="https://packagist.org/packages/astronphp/rocket"><img src="https://poser.pugx.org/astronphp/rocket/v/stable.svg?format=flat" alt="Latest Stable Version"></a>
-        <a href="https://packagist.org/packages/astronphp/rocket"><img src="https://poser.pugx.org/astronphp/rocket/license.svg?format=flat" alt="License"></a>
+        <a href="https://packagist.org/packages/astronphp/astronphp"><img src="https://poser.pugx.org/astronphp/astronphp/d/total.svg?format=flat" alt="Total Downloads"></a>
+        <a href="https://packagist.org/packages/astronphp/astronphp"><img src="https://poser.pugx.org/astronphp/astronphp/v/stable.svg?format=flat" alt="Latest Stable Version"></a>
+        <a href="https://packagist.org/packages/astronphp/astronphp"><img src="https://poser.pugx.org/astronphp/astronphp/license.svg?format=flat" alt="License"></a>
       </p>
     </div>  
     <div class="row col-md-8 col-sm-12 mx-auto mt-3 content-page">
       <div class="mx-auto col-12 p-0"> 
         <b>* Install via composer:</b>
-        <pre class="px-2 mx-2">composer create-project astronphp/rocket myproject</pre>
+        <pre class="px-2 mx-2">composer create-project astronphp/astronphp myproject</pre>
       </div>
     </div>
 
     <div class="row col-md-8 col-sm-12 mx-auto mt-3 col-sm-12 content-page">
         <ul class="cards">
             <li class="col-md-3 col-sm-6 p-2">
-              <a href="https://github.com/astronphp/rocket/" target="_blank" class="px-1 py-3 col-12">
+              <a href="https://github.com/astronphp/astronphp/" target="_blank" class="px-1 py-3 col-12">
                   <div class="col-12">
-                    <i class="fas fa-rocket"></i>
+                    <i class="fas fa-user-astronaut"></i>
                   </div>
-                  <div class="col-12 mt-3">
-                    <span>Rocket</span>
+                  <div class="col-12 mt-2">
+                    <span>Astronphp</span><br>
+                    <img src="https://poser.pugx.org/astronphp/astronphp/v/stable.svg?format=flat" alt="Latest Stable Version">
                   </div>
               </a>
             </li>
@@ -63,8 +64,9 @@
                   <div class="col-12">
                     <i class="fas fa-cogs"></i>
                   </div>
-                  <div class="col-12 mt-3">
-                    <span>Framework</span>
+                  <div class="col-12 mt-2">
+                    <span>Framework</span><br>
+                    <img src="https://poser.pugx.org/astronphp/framework/v/stable.svg?format=flat" alt="Latest Stable Version">
                   </div>
               </a>
             </li>
@@ -73,8 +75,9 @@
                     <div class="col-12">
                       <i class="fas fa-coins"></i>
                     </div>
-                    <div class="col-12 mt-3">
-                      <span>Orm</span>
+                    <div class="col-12 mt-2">
+                      <span>Orm</span><br>
+                      <img src="https://poser.pugx.org/astronphp/orm/v/stable.svg?format=flat" alt="Latest Stable Version">
                     </div>
                 </a>
             </li>
@@ -83,8 +86,9 @@
                   <div class="col-12">
                     <i class="fas fa-palette"></i>
                   </div>
-                  <div class="col-12 mt-3">
-                    <span>Viewfront</span>
+                  <div class="col-12 mt-2">
+                    <span>Viewfront</span><br>
+                    <img src="https://poser.pugx.org/astronphp/viewfront/v/stable.svg?format=flat" alt="Latest Stable Version">
                   </div>
                 </a>
             </li>

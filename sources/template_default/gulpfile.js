@@ -226,7 +226,6 @@ function watchFiles() {
     js();
     html();
     tpl();
-    tpl_replaces();
     movePublic();
     cleanTrash();
     browsersync.reload();

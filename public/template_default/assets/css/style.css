@@ -4,8 +4,3 @@
  * Licensed under MIT (https://github.com/rocket-startup/rocket-startup/blob/master/LICENSE)
  */
 
-#__bs_notify__ {
-  background: rgba(0, 0, 0, 0.1) !important;
-  padding: 0px 3px !important;
-  font-size: 10px !important;
-}
