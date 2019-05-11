@@ -2,4 +2,3 @@
 /vendor
 node_modules
 storage
-!/storage/apps/templates

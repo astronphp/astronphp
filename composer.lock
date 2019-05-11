@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a8b133de8da1de9654e34b71a317011",
+    "content-hash": "474c767beda672e98bddbfe6fc2a18e8",
     "packages": [
         {
             "name": "rocket-startup/framework",
-            "version": "dev-master",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rocket-startup/framework.git",
-                "reference": "0e715b112440661fc0754c4d7fc515e927d04b04"
+                "reference": "3fa3f5a84d682e32cf2fecfb261506c9e27d3d44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rocket-startup/framework/zipball/0e715b112440661fc0754c4d7fc515e927d04b04",
-                "reference": "0e715b112440661fc0754c4d7fc515e927d04b04",
+                "url": "https://api.github.com/repos/rocket-startup/framework/zipball/3fa3f5a84d682e32cf2fecfb261506c9e27d3d44",
+                "reference": "3fa3f5a84d682e32cf2fecfb261506c9e27d3d44",
                 "shasum": ""
             },
             "require": {
@@ -36,11 +36,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-05-06T10:30:16+00:00"
+            "time": "2019-05-07T00:35:19+00:00"
         },
         {
             "name": "rocket-startup/frontview",
-            "version": "dev-master",
+            "version": "0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rocket-startup/frontview.git",
@@ -72,7 +72,7 @@
         },
         {
             "name": "rocket-startup/orm",
-            "version": "dev-master",
+            "version": "0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rocket-startup/orm.git",
@@ -286,13 +286,9 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "rocket-startup/framework": 20,
-        "rocket-startup/frontview": 20,
-        "rocket-startup/orm": 20
-    },
-    "prefer-stable": false,
+    "minimum-stability": "alpha",
+    "stability-flags": [],
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7"

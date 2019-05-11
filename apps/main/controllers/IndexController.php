@@ -11,8 +11,7 @@ class IndexController{
 
 		$this->htmlRender = new \RocketStartup\FrontView\Template();
 		$this->htmlRender->content($templateVariable)
-			->nameApplication('main')
-			->nameTemplate('default')
+			->nameTemplate('template_default')
 			->fileTemplate('index.tpl')
 			->useCache(false)
 			->render();

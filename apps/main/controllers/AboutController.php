@@ -11,8 +11,7 @@ class AboutController{
 
 		$this->htmlRender = new \RocketStartup\FrontView\Template();
 		$this->htmlRender->content($templateVariable)
-			->nameApplication('main')
-			->nameTemplate('default')
+			->nameTemplate('template_default')
 			->fileTemplate('about.tpl')
 			->useCache(false)
 			->render();

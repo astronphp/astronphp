@@ -5,7 +5,6 @@
     "keywords": ["framework php", "rocket-startup" , "php"],
     "license": "MIT",
     "minimum-stability": "alpha",
-    "prefer-stable": true,
     "support": {
         "issues": "https://github.com/rocket-startup/rocket-startup/issues",
         "source": "https://github.com/rocket-startup/rocket-startup/"
