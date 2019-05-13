@@ -25,19 +25,24 @@ const pkg           = require('./package.json');
 const tpl_config    = require('./_variables.json');
 
 
-const path_public   = tpl_config.path_public+tpl_config.template_name;
+const path_public   = tpl_config.path_public+templatename();
 
 
 // Set the banner content
 const banner = ['/*!\n',
   ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %>\n',
   ' * Copyright 2019-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
+  ' * Licensed under <%= pkg.license %> (https://github.com/astronphp/astronphp/blob/master/LICENSE)\n',
   ' */\n',
   '\n'
 ].join('');
 
+function templatename(){
+  var path=__dirname.replace(/\\/g, "/").split('/');
+  return path[path.length-1];
+}
 function pathstorage(){
-  return tpl_config.path_storage+'@@'+md5(new String(tpl_config.template_name))+'/';
+  return tpl_config.path_storage+'@@'+md5(new String(templatename()))+'/';
 }
 
 // BrowserSync
@@ -61,7 +66,7 @@ function template_replacer(type) {
   if(type=='front'){
     front_replace.patterns.push({match:'__assets__',replacement:'/assets'});
   }else{
-      front_replace.patterns.push({match:'__assets__',replacement: '@@'+md5(new String(tpl_config.template_name))+'/assets'});
+      front_replace.patterns.push({match:'__assets__',replacement: '@@'+md5(new String(templatename()))+'/assets'});
   }
 
 
@@ -181,8 +186,8 @@ function tpl(){
     .pipe(replace({
       patterns: [
         {
-          match: md5(new String(tpl_config.template_name)),
-          replacement: './'+tpl_config.template_name
+          match: md5(new String(templatename())),
+          replacement: './'+templatename()
         }
       ]
     }))
@@ -247,6 +252,7 @@ exports.moveImage = moveImage;
 exports.movePublic = movePublic;
 exports.clean = clean;
 exports.pathstorage = pathstorage;
+exports.templatename = templatename;
 exports.cleanTrash = cleanTrash;
 exports.vendor = vendor;
 exports.build = build;

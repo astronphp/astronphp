@@ -1,5 +1,4 @@
 {
-    "template_name"         : "template_default",
     "path_public"           : "../../public/",
     "path_storage"          : "../../storage/apps/templates/",
 
