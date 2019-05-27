@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "astronphp/framework",
-            "version": "0.0.3",
+            "version": "0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/astronphp/framework.git",
-                "reference": "ff8699e92f73b11a6e4816e4ad4610394f0230ce"
+                "reference": "28bdac01c3b5ccca28eb4f844f33fb331c93803d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/astronphp/framework/zipball/ff8699e92f73b11a6e4816e4ad4610394f0230ce",
-                "reference": "ff8699e92f73b11a6e4816e4ad4610394f0230ce",
+                "url": "https://api.github.com/repos/astronphp/framework/zipball/28bdac01c3b5ccca28eb4f844f33fb331c93803d",
+                "reference": "28bdac01c3b5ccca28eb4f844f33fb331c93803d",
                 "shasum": ""
             },
             "require": {
@@ -36,7 +36,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-05-11T01:02:06+00:00"
+            "time": "2019-05-16T22:05:04+00:00"
         },
         {
             "name": "astronphp/frontview",
@@ -222,12 +222,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ed3cbebe47d20fb896cc911f44b39204c220fd61"
+                "reference": "b2f449f14e2cb4d0429a6fccfbe71155f5dc106e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ed3cbebe47d20fb896cc911f44b39204c220fd61",
-                "reference": "ed3cbebe47d20fb896cc911f44b39204c220fd61",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b2f449f14e2cb4d0429a6fccfbe71155f5dc106e",
+                "reference": "b2f449f14e2cb4d0429a6fccfbe71155f5dc106e",
                 "shasum": ""
             },
             "require": {
@@ -243,7 +243,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.10-dev"
+                    "dev-master": "2.11-dev"
                 }
             },
             "autoload": {
@@ -281,7 +281,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-05-10T06:47:07+00:00"
+            "time": "2019-05-25T10:23:33+00:00"
         }
     ],
     "packages-dev": [],

@@ -26,6 +26,7 @@
         "gulp-sass": "4.0.2",
         "gulp-string-replace": "^1.1.2",
         "gulp-uglify": "3.0.1",
-        "merge-stream": "^1.0.1"
+        "merge-stream": "^1.0.1",
+        "gulp-twig": "^1.2.0"
     }
 }

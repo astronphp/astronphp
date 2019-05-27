@@ -4,7 +4,7 @@
     "Applications": {
         "main": {
             "development": {
-                "addressUri": "",
+                "addressUri": "192.168.33.101/astronphp/astronphp/",
                 "forceHttps": false,
                 "forceWww": false,
                 "database": {

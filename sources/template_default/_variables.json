@@ -1,9 +1,13 @@
 {
     "path_public"           : "../../public/",
     "path_storage"          : "../../storage/apps/templates/",
-
-    "replacer": {
-        "__baseUrl__"       : {"front": "./",               "back": "{{base_url}}"},
-        "message"           : {"front": "Hello World!",          "back": "{{message}}"}
+    "vendors"               : [
+        { "mod":    ["./node_modules/jquery/dist/*", "!./node_modules/jquery/dist/core.js"],     "dist": "assets/vendor/jquery" }
+    ],
+    "twig_dev": {
+        "__titlesite__"     : "AstronPHP | Welcome",
+        "__baseurl__"       : "./",
+        "message"           : "Hello world",
+        "copy"              : "Copyright"
     }
 }

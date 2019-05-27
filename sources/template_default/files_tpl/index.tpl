@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <base href="{{base_url}}">
+    <base href="{{__baseurl__}}">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Hello world</title>
+<title>{{__titlesite__}}</title>
 
-<link href="./template_default/assets/css/main.min.css?cbh=f63751936078433ccd304bfbea9bc2e6" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" sizes="48x48" href="./template_default/assets/media/favicon.png?cbh=b18b3bae4114edd8a83ab9cd7258d5c5">
+<link href="./template_default/assets/css/main.min.css?cbh=e482087d966e1b889814fed027f36d46" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" sizes="48x48" href="./template_default/assets/media/favicon.png?cbh=f3eeea077390fef5695f920c1ed43625">
   </head>
   <body>
     
@@ -21,5 +21,12 @@
       <a href="https://astronphp.github.io/" target="_blank">
         Documentation
       </a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <footer>{{copy}}</footer>
   </body>
 </html>

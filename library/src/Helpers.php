@@ -18,5 +18,9 @@ class Helpers{
     public static function addressFullUri(){
         return \App::getInstance('App')->addressFullUri();
     }
+
+    public static function titlePage(){
+        return 'Astron PHP - Hello World!';
+    }
     
 }
