@@ -13,7 +13,7 @@ class IndexController{
 		$this->htmlRender->content($templateVariable)
 			->nameTemplate('template_default')
 			->fileTemplate('index.tpl')
-			->useCache(false)
+			->useCache(true)
 			->render();
 	}
 

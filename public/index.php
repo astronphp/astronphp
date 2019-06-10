@@ -1,7 +1,7 @@
 <?php
 
-define('START_LEANSTART', microtime(true));
-define('MEMORY_USAGE_LEANSTART', memory_get_usage());
+define('START_ASTRONPHP', microtime(true));
+define('MEMORY_USAGE_ASTRONPHP', memory_get_usage(true));
 
 require __DIR__.'/../vendor/autoload.php';
 
