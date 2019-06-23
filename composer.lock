@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffd9794dbbf5dbda32f98328226008b5",
+    "content-hash": "fed79e994c44ab792220a5f69f2bde8f",
     "packages": [
         {
             "name": "astronphp/framework",
-            "version": "0.0.5",
+            "version": "0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/astronphp/framework.git",
-                "reference": "28bdac01c3b5ccca28eb4f844f33fb331c93803d"
+                "reference": "d02609f8d6052bc4aed3bf0bdc4881e7385fecbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/astronphp/framework/zipball/28bdac01c3b5ccca28eb4f844f33fb331c93803d",
-                "reference": "28bdac01c3b5ccca28eb4f844f33fb331c93803d",
+                "url": "https://api.github.com/repos/astronphp/framework/zipball/d02609f8d6052bc4aed3bf0bdc4881e7385fecbb",
+                "reference": "d02609f8d6052bc4aed3bf0bdc4881e7385fecbb",
                 "shasum": ""
             },
             "require": {
@@ -36,7 +36,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-05-16T22:05:04+00:00"
+            "time": "2019-06-10T23:42:16+00:00"
         },
         {
             "name": "astronphp/frontview",
@@ -222,12 +222,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "b2f449f14e2cb4d0429a6fccfbe71155f5dc106e"
+                "reference": "b957ff6f290ccc6caa0015a646b4add1fc216a00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b2f449f14e2cb4d0429a6fccfbe71155f5dc106e",
-                "reference": "b2f449f14e2cb4d0429a6fccfbe71155f5dc106e",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b957ff6f290ccc6caa0015a646b4add1fc216a00",
+                "reference": "b957ff6f290ccc6caa0015a646b4add1fc216a00",
                 "shasum": ""
             },
             "require": {
@@ -238,7 +238,7 @@
             "require-dev": {
                 "psr/container": "^1.0",
                 "symfony/debug": "^2.7",
-                "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8|^5.0"
             },
             "type": "library",
             "extra": {
@@ -281,10 +281,40 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-05-25T10:23:33+00:00"
+            "time": "2019-06-10T17:37:27+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "astronphp/debugbar",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/astronphp/debugbar.git",
+                "reference": "7c0cfb5cfc6adf1fbb7c938b6e061cc636c0bb10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/astronphp/debugbar/zipball/7c0cfb5cfc6adf1fbb7c938b6e061cc636c0bb10",
+                "reference": "7c0cfb5cfc6adf1fbb7c938b6e061cc636c0bb10",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Astronphp\\Debugbar\\": [
+                        "src/",
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-06-10T23:12:32+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": [],

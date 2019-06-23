@@ -18,6 +18,9 @@
         "astronphp/frontview": "0.0.*",
         "astronphp/orm": "0.0.*"
     },
+    "require-dev": {
+        "astronphp/debugbar": "0.0.*"
+    },
     "autoload": {
         "psr-4": {
             "Library\\":  [

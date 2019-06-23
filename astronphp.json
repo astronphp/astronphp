@@ -1,10 +1,10 @@
 {
-    "Version": "0.0.5",
+    "Version": "0.0.6",
     "Name": "Astron PHP Modular Framework",
     "Applications": {
         "main": {
             "development": {
-                "addressUri": "192.168.33.101/astronphp/astronphp/",
+                "addressUri": "localhost/astronphp/astronphp/",
                 "forceHttps": false,
                 "forceWww": false,
                 "database": {
@@ -20,12 +20,12 @@
         "DisplayErrors": true,
         "LogErrors": true,
         "ErrorReporting": "E_ALL & ~E_USER_DEPRECATED",
-        "ErrorLogFile": "/storage/log/error/php.log",
-        "ErrorSqlFile": "/storage/log/error/sql.log"
+        "ErrorLogFile": "storage/log/error/php.log",
+        "ErrorSqlFile": "storage/log/error/sql.log"
     },
     "Sessions": {
         "sessionCacheLimiter": "private",
-        "sessionSavePath": "/storage/apps/sessions/",
+        "sessionSavePath": "storage/app/sessions",
         "sessionCacheExpire": 10080,
         "cacheNavegation": "2019-01-01 00:00:00"
     },
