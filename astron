@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+define('PATH_ROOT', __DIR__.'/');
+require PATH_ROOT.'vendor/autoload.php';
+
+if(class_exists('\Astronphp\Handler\Main')){
+	echo (new \Astronphp\Handler\Main($argv))->return;
+}

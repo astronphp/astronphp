@@ -1,5 +1,5 @@
 {
-    "Version": "0.0.6",
+    "Version": "0.0.7",
     "Name": "Astron PHP Modular Framework",
     "Applications": {
         "main": {
@@ -9,9 +9,9 @@
                 "forceWww": false,
                 "database": {
                     "host": "localhost",
-                    "username": "root",
-                    "password": "***",
-                    "database": "user"
+                    "username": "vagrant",
+                    "password": "vagrant",
+                    "database": "orm"
                 }
             }
         }
